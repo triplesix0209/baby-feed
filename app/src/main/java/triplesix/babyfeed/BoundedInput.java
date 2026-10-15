@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
 final class BoundedInput {
-    // Legacy v2 archives may contain years of records; v3 pages remain limited to 256 KiB.
+    // Legacy archives may contain years of records; current v1 pages are limited to 256 KiB.
     static final int MAX_RESPONSE_BYTES = 16 * 1024 * 1024;
 
     static String read(InputStream input, int limit) throws IOException {

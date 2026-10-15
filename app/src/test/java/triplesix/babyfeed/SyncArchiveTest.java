@@ -78,7 +78,7 @@ public class SyncArchiveTest {
 
         public JSONObject read(String id) throws Exception {
             JSONObject body = new JSONObject(bodies.get(id).toString());
-            if (corruptRead && writes > 0 && body.optInt("schema") >= 2)
+            if (corruptRead && writes > 0 && body.has("events"))
                 body.put("events", new JSONArray());
             return body;
         }
@@ -95,6 +95,32 @@ public class SyncArchiveTest {
             files.remove(id);
             bodies.remove(id);
         }
+    }
+
+    @Test
+    public void migratesV3ToV1OnlyAfterVerifiedUpload() throws Exception {
+        Local local = new Local();
+        Remote remote = new Remote();
+        JSONObject record = event();
+        String old =
+                remote.add(
+                        "babyfeed-v3-" + A + "-1970-1.json",
+                        SyncArchive.archive(A, Collections.singletonList(record)).put("schema", 3),
+                        true);
+        remote.corruptRead = true;
+        assertThrows(IOException.class, () -> SyncArchive.sync(A, local, remote));
+        assertTrue(remote.files.containsKey(old));
+        remote.corruptRead = false;
+        SyncArchive.sync(A, local, remote);
+        assertFalse(remote.files.containsKey(old));
+        assertEquals(1, remote.files.size());
+        JSONObject file = remote.files.values().iterator().next();
+        assertEquals("babyfeed-v1-" + A + "-1970-1.json", file.getString("name"));
+        assertEquals(1, remote.read(file.getString("id")).getInt("schema"));
+        assertTrue(local.data.containsKey(record.getString("id")));
+        int writes = remote.writes;
+        SyncArchive.sync(A, local, remote);
+        assertEquals(writes, remote.writes);
     }
 
     @Test

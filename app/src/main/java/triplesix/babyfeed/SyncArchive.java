@@ -50,7 +50,7 @@ final class SyncArchive {
     static JSONObject archive(String device, Collection<JSONObject> entries) throws Exception {
         return new JSONObject()
                 .put("app", "BabyFeed")
-                .put("schema", 3)
+                .put("schema", 1)
                 .put("device", device)
                 .put("events", new JSONArray(entries));
     }
@@ -110,7 +110,7 @@ final class SyncArchive {
                 int added = bytes(e) + (page.isEmpty() ? 0 : 1);
                 if (!page.isEmpty() && (page.size() >= MAX_EVENTS || size + added > MAX_BYTES)) {
                     result.put(
-                            "babyfeed-v3-" + device + "-" + year.getKey() + "-" + part++ + ".json",
+                            "babyfeed-v1-" + device + "-" + year.getKey() + "-" + part++ + ".json",
                             archive(device, page));
                     page = new ArrayList<>();
                     size = bytes(archive(device, Collections.emptyList()));
@@ -124,7 +124,7 @@ final class SyncArchive {
             }
             if (!page.isEmpty())
                 result.put(
-                        "babyfeed-v3-" + device + "-" + year.getKey() + "-" + part + ".json",
+                        "babyfeed-v1-" + device + "-" + year.getKey() + "-" + part + ".json",
                         archive(device, page));
         }
         return result;
@@ -132,7 +132,9 @@ final class SyncArchive {
 
     static Map<String, JSONObject> events(JSONObject archive) throws Exception {
         if (!"BabyFeed".equals(archive.optString("app"))
-                || (archive.optInt("schema") != 2 && archive.optInt("schema") != 3))
+                || (archive.optInt("schema") != 1
+                        && archive.optInt("schema") != 2
+                        && archive.optInt("schema") != 3))
             throw new IOException("Định dạng đồng bộ chưa được hỗ trợ. Hãy cập nhật BabyFeed.");
         Map<String, JSONObject> result = new LinkedHashMap<>();
         JSONArray entries = archive.getJSONArray("events");
@@ -193,19 +195,22 @@ final class SyncArchive {
                 merge(merged, event);
                 legacy.add(file);
             } else if (fileName.matches("babyfeed-device-" + UUID_PATTERN + "\\.json")
+                    || fileName.matches("babyfeed-v1-" + UUID_PATTERN + "-[0-9]+-[0-9]+\\.json")
                     || fileName.matches("babyfeed-v3-" + UUID_PATTERN + "-[0-9]+-[0-9]+\\.json")) {
                 JSONObject archive = remote.read(id);
                 String writer = archive.getString("device");
+                boolean current =
+                        fileName.matches("babyfeed-v1-" + UUID_PATTERN + "-[0-9]+-[0-9]+\\.json");
                 boolean v3 =
                         fileName.matches("babyfeed-v3-" + UUID_PATTERN + "-[0-9]+-[0-9]+\\.json");
-                if (!(v3
-                        ? fileName.startsWith("babyfeed-v3-" + writer + "-")
-                                && archive.optInt("schema") == 3
+                if (!(current || v3
+                        ? fileName.startsWith("babyfeed-v" + (current ? 1 : 3) + "-" + writer + "-")
+                                && archive.optInt("schema") == (current ? 1 : 3)
                         : fileName.equals(name(writer))))
                     throw new IOException("Tên và thiết bị trong dữ liệu không khớp.");
                 Map<String, JSONObject> entries = events(archive);
                 for (JSONObject event : entries.values()) merge(merged, event);
-                if (!v3) legacy.add(file);
+                if (!current) legacy.add(file);
                 else if (writer.equals(device)) {
                     JSONObject duplicate = ownFiles.put(fileName, file);
                     if (duplicate != null) legacy.add(duplicate);

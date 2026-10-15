@@ -1873,26 +1873,31 @@ public class MainActivity extends Activity {
         Calendar selected = Calendar.getInstance();
         selected.add(Calendar.MINUTE, 5);
         ui.text(l, I18n.text(this, R.string.reminder_date_and_time_98), 13, ui.MUTED, true);
-        LinearLayout row = ui.row(), dateBox = ui.column(), timeBox = ui.column();
-        LinearLayout.LayoutParams dateParams = new LinearLayout.LayoutParams(0, -2, 1);
-        dateParams.rightMargin = ui.dp(10);
-        row.addView(dateBox, dateParams);
-        row.addView(timeBox, new LinearLayout.LayoutParams(0, -2, 1));
+        LinearLayout row = ui.row();
+        row.setBaselineAligned(false);
         l.addView(row);
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", I18n.locale(this)),
                 timeFormat = new SimpleDateFormat("HH:mm", I18n.locale(this));
         Button day =
                 ui.button(
-                        dateBox,
+                        row,
                         getString(R.string.date_label, dateFormat.format(selected.getTime())),
                         false,
                         () -> {});
         Button time =
                 ui.button(
-                        timeBox,
+                        row,
                         getString(R.string.time_label, timeFormat.format(selected.getTime())),
                         false,
                         () -> {});
+        // Match the taller button when the date wraps on narrow screens or larger text.
+        LinearLayout.LayoutParams dateParams = new LinearLayout.LayoutParams(0, -1, 1);
+        dateParams.topMargin = ui.dp(8);
+        dateParams.rightMargin = ui.dp(10);
+        day.setLayoutParams(dateParams);
+        LinearLayout.LayoutParams timeParams = new LinearLayout.LayoutParams(0, -1, 1);
+        timeParams.topMargin = ui.dp(8);
+        time.setLayoutParams(timeParams);
         day.setOnClickListener(
                 v ->
                         new FeedPickers.DateDialog(
