@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+    <rect width="1080" height="1920" fill="#E6F0FD"/>
+    <text x="80" y="68" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="650" fill="#2D69CB">BABY FEED</text>
+    <text x="80" y="145" font-family="Segoe UI,Arial,sans-serif" font-size="55" font-weight="700" fill="#243550">See the day clearly</text>
+    <text x="80" y="198" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="400" fill="#526681">Milk totals and a timeline of daily records.</text>
+    <rect x="145" y="259" width="790" height="1613" rx="28" fill="#C8DAF3"/>
+    <text x="81" y="1895" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#526681">02 / 06</text>
+  </svg>

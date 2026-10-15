@@ -1,0 +1,74 @@
+[
+  {
+    "file": "graphics/app-icon.png",
+    "width": 512,
+    "height": 512,
+    "channels": 4,
+    "bytes": 9734
+  },
+  {
+    "file": "graphics/feature-graphic.png",
+    "width": 1024,
+    "height": 500,
+    "channels": 3,
+    "bytes": 41687
+  },
+  {
+    "file": "phone/01-feeds.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 239854
+  },
+  {
+    "file": "phone/02-report.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 232086
+  },
+  {
+    "file": "phone/03-record.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 173524
+  },
+  {
+    "file": "phone/04-vitamin.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 210204
+  },
+  {
+    "file": "phone/05-settings.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 240313
+  },
+  {
+    "file": "phone/06-dark.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 255249
+  },
+  {
+    "file": "title.txt",
+    "characters": 25
+  },
+  {
+    "file": "short-description.txt",
+    "characters": 67
+  },
+  {
+    "file": "full-description.txt",
+    "characters": 2355
+  },
+  {
+    "file": "release-notes.txt",
+    "characters": 325
+  }
+]

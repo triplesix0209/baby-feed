@@ -1,0 +1,10 @@
+{
+  "graphics/app-icon.png": "Blue baby bottle with milk and measurement marks on a pale blue background.",
+  "graphics/feature-graphic.png": "Baby Feed: Small moments. A clearer routine. A clock and bottle represent feeding reminders and daily records.",
+  "phone/01-feeds.png": "Baby Feed home screen with the next bottle reminder, milk amount and daily totals.",
+  "phone/02-report.png": "Daily report with milk consumed, milk discarded, Vitamin K2D3 status and feeding history.",
+  "phone/03-record.png": "Milk recording dialog with date, time, amount consumed and amount discarded fields.",
+  "phone/04-vitamin.png": "Vitamin K2D3 record dialog showing that a dose has already been recorded for the selected day.",
+  "phone/05-settings.png": "Settings screen with language, appearance, daily vitamin reminders and sleep hours.",
+  "phone/06-dark.png": "Baby Feed home screen in dark appearance with the next feeding reminder and daily totals."
+}

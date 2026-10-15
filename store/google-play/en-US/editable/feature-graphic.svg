@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+<rect width="1024" height="500" fill="#DFEBFC"/>
+<circle cx="1000" cy="-60" r="290" fill="#D1E2FA"/>
+<circle cx="26" cy="557" r="175" fill="#D3E5F9"/>
+<path d="M657 106C586 190 615 355 729 403" fill="none" stroke="#B7D0F4" stroke-width="2" stroke-dasharray="5 10"/>
+<text x="80" y="108" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="650" fill="#2D69CB">Baby Feed</text>
+<text x="80" y="193" font-family="Segoe UI,Arial,sans-serif" font-size="49" font-weight="700" fill="#243550">Small moments.</text>
+<text x="80" y="255" font-family="Segoe UI,Arial,sans-serif" font-size="49" font-weight="700" fill="#243550">A clearer routine.</text>
+<text x="82" y="317" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526681">Bottle feeds. Daily records. Reminders.</text>
+<circle cx="785" cy="247" r="116" fill="#F6F9FF"/>
+<circle cx="785" cy="247" r="93" fill="none" stroke="#A6C5F2" stroke-width="3"/>
+<g stroke="#2D69CB" stroke-width="5" stroke-linecap="round"><path d="M785 165v9M867 247h-9M785 329v-9M703 247h9"/><path d="M785 194v53l35 23" stroke-width="7"/></g>
+<circle cx="785" cy="247" r="7" fill="#2D69CB"/>
+<circle cx="871" cy="342" r="49" fill="#E6F0FD" stroke="#F6F9FF" stroke-width="5"/>
+<g transform="translate(833,304) scale(1.58)"><path fill="#2D69CB" d="M20,5h8v7h-8zM16,12h16v5h-16z"/><path fill="#7BA7EB" d="M17,18h14l3,5v16q0,4 -4,4h-12q-4,0 -4,-4v-16z"/><path fill="#FFFFFF" d="M18,25h12v13h-12z"/><path fill="#2D69CB" d="M18,28h5v2h-5zM18,33h4v2h-4z"/></g>
+<circle cx="684" cy="140" r="9" fill="#7BA7EB"/><circle cx="914" cy="180" r="5" fill="#7BA7EB"/></svg>

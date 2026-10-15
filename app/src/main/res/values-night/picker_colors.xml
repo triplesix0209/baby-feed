@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="picker_surface">#1D2430</color>
+    <color
+        name="picker_soft">#243650</color>
+    <color
+        name="picker_face">#11151D</color>
+    <color
+        name="picker_accent">#9DC2FF</color>
+    <color
+        name="picker_ink">#F0F2F7</color>
+    <color
+        name="picker_muted">#ABB5C6</color>
+    <color
+        name="picker_on_accent">#14223A</color>
+</resources>

@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'triplesix.babyfeed'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'triplesix.babyfeed'
+        minSdk 26
+        targetSdk 35
+        versionCode 12
+        versionName '1.0'
+        testInstrumentationRunner 'triplesix.babyfeed.StateInstrumentation'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        debug {
+            if (providers.gradleProperty('isolatedTests').isPresent()) {
+                applicationIdSuffix '.reviewtests'
+            }
+        }
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = 'Baby Feed.apk'
+        }
+    }
+}
+dependencies {
+    implementation 'com.google.android.gms:play-services-auth:22.0.0'
+    implementation 'androidx.work:work-runtime:2.12.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += ['-Xlint:deprecation', '-Xlint:unchecked']
+}

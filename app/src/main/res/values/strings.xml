@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="settings_display">Hiển thị</string>
+    <string
+        name="settings_appearance">Giao diện</string>
+    <string
+        name="settings_widget">Widget</string>
+    <string
+        name="settings_tips">Gợi ý</string>
+    <string
+        name="settings_info">Thông tin</string>
+    <string
+        name="appearance_light">Sáng</string>
+    <string
+        name="appearance_dark">Tối</string>
+    <string
+        name="appearance_system">Hệ thống</string>
+    <string
+        name="connected_provider">Đã liên kết</string>
+    <string
+        name="widget_number">Widget %1$d</string>
+    <string
+        name="widget_settings">Cài đặt widget</string>
+    <string
+        name="widget_saved_automatically">Thay đổi được lưu và áp dụng ngay.</string>
+    <string
+        name="widget_add_hint">Thêm widget Baby Feed vào màn hình chính để chỉnh cài đặt.</string>
+    <string
+        name="widget_refresh">Thời gian refresh</string>
+    <plurals
+        name="widget_refresh_minutes">
+        <item
+            quantity="other">%d phút</item>
+    </plurals>
+    <string
+        name="widget_transparency">Độ trong suốt của nền</string>
+    <string
+        name="widget_transparency_value">Độ trong suốt của nền: %1$d%%</string>
+    <string
+        name="widget_change">Thay đổi</string>
+    <string
+        name="the_schedule_has_changed_please_use_the_current_schedule_0"
+        formatted="false">"Lịch đã thay đổi. Hãy dùng lịch đang hiển thị."</string>
+    <string
+        name="this_feed_has_changed_the_widget_was_updated_please_check_the_cur_1"
+        formatted="false">"Cữ sữa đã thay đổi. Widget đã được cập nhật; hãy kiểm tra lịch hiện tại."</string>
+    <string
+        name="we_will_ask_again_in_10_minutes_2"
+        formatted="false">"Sẽ hỏi lại sau 10 phút."</string>
+    <string
+        name="schedule_a_feed_3"
+        formatted="false">"Đặt lịch pha sữa"</string>
+    <string
+        name="remind_me_in_10_minutes_4"
+        formatted="false">"Nhắc lại sau 10 phút"</string>
+    <string
+        name="change_time_amount_5"
+        formatted="false">"Đổi giờ / lượng sữa"</string>
+    <string
+        name="cancel_reminders_6"
+        formatted="false">"Hủy lịch nhắc"</string>
+    <string
+        name="record_an_earlier_feed_7"
+        formatted="false">"Ghi nhận cữ trước đó"</string>
+    <string
+        name="view_report_8"
+        formatted="false">"Xem báo cáo"</string>
+    <string
+        name="sync_9"
+        formatted="false">"Đồng bộ"</string>
+    <string
+        name="feed_actions_10"
+        formatted="false">"Thao tác với cữ sữa"</string>
+    <string
+        name="close_11"
+        formatted="false">"Đóng"</string>
+    <string
+        name="cancel_this_feeding_session_and_its_reminders_12"
+        formatted="false">"Hủy đợt đang ghi nhận và các nhắc nhở của đợt này?"</string>
+    <string
+        name="cancel_the_next_feed_13"
+        formatted="false">"Hủy cữ sắp tới?"</string>
+    <string
+        name="cancel_schedule_14"
+        formatted="false">"Hủy lịch"</string>
+    <string
+        name="this_feed_has_changed_please_check_again_before_cancelling_15"
+        formatted="false">"Cữ sữa đã thay đổi. Vui lòng kiểm tra lại trước khi hủy."</string>
+    <string
+        name="keep_schedule_16"
+        formatted="false">"Giữ lịch"</string>
+    <string
+        name="feeds_17"
+        formatted="false">"Chăm bé"</string>
+    <string
+        name="report_18"
+        formatted="false">"Báo cáo"</string>
+    <string
+        name="cancel_19"
+        formatted="false">"Bỏ qua"</string>
+    <string
+        name="confirm_20"
+        formatted="false">"Xác nhận"</string>
+    <string
+        name="confirm_23"
+        formatted="false">"Xác nhận ("</string>
+    <string
+        name="select_at_least_one_feed_to_delete_24"
+        formatted="false">"Chọn ít nhất một mục để xóa."</string>
+    <string
+        name="a_little_reminder_a_little_peace_of_mind_25"
+        formatted="false">"Một chút nhắc nhở, thêm phần an tâm."</string>
+    <string
+        name="baby_is_feeding_26"
+        formatted="false">"BÉ ĐANG UỐNG"</string>
+    <string
+        name="next_feed_27"
+        formatted="false">"CỮ SỮA TIẾP THEO"</string>
+    <string
+        name="ready_for_the_first_feed_28"
+        formatted="false">"Sẵn sàng cho\ncữ sữa đầu tiên"</string>
+    <string
+        name="choose_a_time_and_amount_we_will_handle_the_reminders_29"
+        formatted="false">"Chọn giờ và lượng sữa. Việc nhắc nhở để app lo nhé."</string>
+    <string
+        name="schedule_a_feed_30"
+        formatted="false">"+  Đặt lịch pha sữa"</string>
+    <string
+        name="prepared_at_31"
+        formatted="false">"Đã pha lúc "</string>
+    <string
+        name="check_again_at_32"
+        formatted="false">"Hỏi lại lúc "</string>
+    <string
+        name="baby_has_finished_33"
+        formatted="false">"Bé đã uống xong"</string>
+    <string
+        name="milk_34"
+        formatted="false">" sữa"</string>
+    <string
+        name="milk_prepared_35"
+        formatted="false">"Đã pha sữa"</string>
+    <string
+        name="today_36"
+        formatted="false">"Hôm nay"</string>
+    <string
+        name="view_report_37"
+        formatted="false">"Xem báo cáo →"</string>
+    <string
+        name="record_38"
+        formatted="false">"Ghi nhận"</string>
+    <string
+        name="enable_feeding_reminders_39"
+        formatted="false">"Bật nhắc nhở cho bé"</string>
+    <string
+        name="allow_notifications_40"
+        formatted="false">"Cho phép thông báo"</string>
+    <string
+        name="allow_exact_alarms_to_help_reminders_arrive_on_time_41"
+        formatted="false">"Cho phép nhắc đúng giờ để hạn chế thông báo trễ."</string>
+    <string
+        name="allow_exact_alarms_42"
+        formatted="false">"Cho phép nhắc đúng giờ"</string>
+    <string
+        name="allow_full_screen_alarms_43"
+        formatted="false">"Cho phép báo thức toàn màn hình"</string>
+    <string
+        name="consumed_44"
+        formatted="false">"ĐÃ UỐNG"</string>
+    <string
+        name="discarded_46"
+        formatted="false">"ĐÃ BỎ"</string>
+    <string
+        name="delete_47"
+        formatted="false">"Xóa"</string>
+    <string
+        name="select_feeds_to_delete_48"
+        formatted="false">"Chọn các mục muốn xóa"</string>
+    <string
+        name="previous_day_49"
+        formatted="false">"Ngày trước"</string>
+    <string
+        name="next_day_50"
+        formatted="false">"Ngày tiếp theo"</string>
+    <string
+        name="no_data_51"
+        formatted="false">"Không có dữ liệu"</string>
+    <string
+        name="select_feed_56"
+        formatted="false">"Chọn mục "</string>
+    <string
+        name="discarded_57"
+        formatted="false">"  ·  Đã bỏ "</string>
+    <string
+        name="care_for_baby_together_58"
+        formatted="false">"Cả nhà cùng chăm bé"</string>
+    <string
+        name="family_members_can_use_different_email_accounts_select_the_same_g_62"
+        formatted="false">"Cả nhà có thể dùng nhiều email khác nhau. Chỉ cần chọn cùng một thư mục trên Google Drive để xem chung lịch và lịch sử cữ sữa."</string>
+    <string
+        name="step_1_connect_on_the_first_device_63"
+        formatted="false">"1. Liên kết trên máy thứ nhất"</string>
+    <string
+        name="in_baby_feed_tap_connect_under_google_drive_and_choose_your_googl_64"
+        formatted="false">"Trong Baby Feed, bấm Liên kết ở mục Google Drive và chọn tài khoản Google của bạn. Chờ liên kết và đồng bộ hoàn tất."</string>
+    <string
+        name="step_2_share_the_folder_with_your_family_65"
+        formatted="false">"2. Chia sẻ thư mục cho người còn lại"</string>
+    <string
+        name="tap_next_to_google_drive_to_see_the_folder_name_open_google_drive_66"
+        formatted="false">"Bấm biểu tượng ⓘ cạnh Google Drive để xem tên thư mục đang dùng. Mở ứng dụng Google Drive bằng cùng tài khoản, tìm thư mục đó (mặc định là Baby Feed), bấm dấu ba chấm → Chia sẻ. Nhập email của người còn lại, chọn quyền Người chỉnh sửa rồi bấm Gửi."</string>
+    <string
+        name="step_3_select_the_shared_folder_on_the_second_device_67"
+        formatted="false">"3. Chọn thư mục chung trên máy thứ hai"</string>
+    <string
+        name="open_baby_feed_on_the_other_device_tap_connect_and_choose_the_inv_68"
+        formatted="false">"Mở Baby Feed trên máy còn lại, bấm Liên kết và chọn tài khoản Google vừa được mời. Sau khi liên kết, bấm ⓘ cạnh Google Drive → Đổi. Mở thư mục người thứ nhất đã chia sẻ, rồi bấm Dùng thư mục này."</string>
+    <string
+        name="step_4_sync_both_devices_69"
+        formatted="false">"4. Đồng bộ trên cả hai máy"</string>
+    <string
+        name="connect_to_the_internet_and_tap_sync_on_the_first_device_then_on__70"
+        formatted="false">"Kết nối Internet và bấm Đồng bộ trên máy thứ nhất, sau đó trên máy thứ hai. Chờ mỗi máy báo Đã đồng bộ rồi kiểm tra lịch sử cữ sữa."</string>
+    <string
+        name="choose_the_correct_shared_folder_71"
+        formatted="false">"Chọn đúng thư mục được chia sẻ"</string>
+    <string
+        name="two_folders_named_baby_feed_may_be_different_folders_avoid_select_72"
+        formatted="false">"Hai thư mục cùng tên Baby Feed vẫn có thể là hai thư mục khác nhau. Đừng chọn thư mục riêng do máy thứ hai tạo. Nếu chưa thấy thư mục chung, kiểm tra email được mời và quyền Người chỉnh sửa ở bước 2."</string>
+    <string
+        name="use_the_latest_baby_feed_version_on_all_devices_after_setup_the_a_73"
+        formatted="false">"Các máy nên dùng bản Baby Feed mới nhất. Sau khi thiết lập, app sẽ tự đồng bộ khi có mạng, nhưng máy kia có thể chưa thấy thay đổi ngay. Khi cần xem thông tin mới nhất, hãy bấm Đồng bộ lần lượt trên máy vừa ghi nhận rồi máy còn lại."</string>
+    <string
+        name="about_74"
+        formatted="false">"Thông tin "</string>
+    <string
+        name="disconnect_75"
+        formatted="false">"Hủy liên kết"</string>
+    <string
+        name="connect_76"
+        formatted="false">"Liên kết"</string>
+    <string
+        name="disconnect_google_drive_on_this_device_your_history_will_be_kept_77"
+        formatted="false">"Hủy liên kết Google Drive trên máy này? Lịch sử vẫn được giữ lại."</string>
+    <string
+        name="not_connected_78"
+        formatted="false">"Chưa liên kết"</string>
+    <string
+        name="syncing_79"
+        formatted="false">"Đang đồng bộ"</string>
+    <string
+        name="synced_80"
+        formatted="false">"Đã đồng bộ"</string>
+    <string
+        name="syncing_81"
+        formatted="false">"Đang đồng bộ…"</string>
+    <string
+        name="not_synced_82"
+        formatted="false">"Chưa đồng bộ"</string>
+    <string
+        name="sync_failed_84"
+        formatted="false">"Đồng bộ lỗi"</string>
+    <string
+        name="at_85"
+        formatted="false">"vào lúc "</string>
+    <string
+        name="storage_folder_86"
+        formatted="false">"THƯ MỤC LƯU TRỮ"</string>
+    <string
+        name="no_folder_selected_87"
+        formatted="false">"Chưa chọn thư mục"</string>
+    <string
+        name="change_88"
+        formatted="false">"Đổi"</string>
+    <string
+        name="loading_folders_89"
+        formatted="false">"Đang tải thư mục…"</string>
+    <string
+        name="unable_to_sync_90"
+        formatted="false">"Không thể đồng bộ"</string>
+    <string
+        name="your_history_on_this_device_is_unchanged_91"
+        formatted="false">"\n\nLịch sử trên máy vẫn được giữ nguyên."</string>
+    <string
+        name="choose_folder_92"
+        formatted="false">"Chọn thư mục"</string>
+    <string
+        name="sync_unsuccessful_93"
+        formatted="false">"Đồng bộ chưa thành công: "</string>
+    <string
+        name="time_baby_finished_feeding_94"
+        formatted="false">"Thời gian bé uống xong"</string>
+    <string
+        name="save_95"
+        formatted="false">"Lưu"</string>
+    <string
+        name="please_check_your_entries_96"
+        formatted="false">"Vui lòng kiểm tra dữ liệu."</string>
+    <string
+        name="amount_to_prepare_ml_97"
+        formatted="false">"Lượng pha (ml)"</string>
+    <string
+        name="reminder_date_and_time_98"
+        formatted="false">"Ngày và giờ nhắc"</string>
+    <string
+        name="choose_a_future_time_101"
+        formatted="false">"Chọn giờ trong tương lai."</string>
+    <string
+        name="when_baby_was_fed_102"
+        formatted="false">"Thời điểm bé đã uống"</string>
+    <string
+        name="amount_discarded_ml_106"
+        formatted="false">"Lượng đã bỏ (ml)"</string>
+    <string
+        name="choose_a_feeding_time_in_the_past_108"
+        formatted="false">"Chọn thời điểm đã uống trong quá khứ."</string>
+    <string
+        name="actual_amount_prepared_ml_109"
+        formatted="false">"Lượng thực tế đã pha (ml)"</string>
+    <string
+        name="confirm_milk_prepared_110"
+        formatted="false">"Xác nhận đã pha"</string>
+    <string
+        name="amount_left_ml_111"
+        formatted="false">"Lượng còn lại (ml)"</string>
+    <string
+        name="next_feed_after_112"
+        formatted="false">"Cữ tiếp theo sau"</string>
+    <string
+        name="hours_113"
+        formatted="false">"giờ"</string>
+    <string
+        name="minutes_114"
+        formatted="false">"phút"</string>
+    <string
+        name="amount_for_next_feed_ml_115"
+        formatted="false">"Lượng pha cữ tiếp theo (ml)"</string>
+    <string
+        name="record_finished_feed_116"
+        formatted="false">"Ghi nhận uống xong"</string>
+    <string
+        name="this_feed_has_already_been_recorded_117"
+        formatted="false">"Cữ này đã được ghi nhận."</string>
+    <string
+        name="the_finish_time_cannot_be_in_the_future_118"
+        formatted="false">"Thời gian uống xong không được ở tương lai."</string>
+    <string
+        name="the_finish_time_must_be_at_or_after_preparation_119"
+        formatted="false">"Thời gian uống xong phải từ lúc đã pha sữa."</string>
+    <string
+        name="disconnect_before_changing_families_local_data_will_be_uploaded_t_120"
+        formatted="false">"Ngắt liên kết trước khi đổi gia đình. Dữ liệu trên máy sẽ được tải lên thư mục mới."</string>
+    <string
+        name="id_at_the_end_of_the_drive_folder_url_121"
+        formatted="false">"Mã ở cuối đường dẫn thư mục Drive"</string>
+    <string
+        name="join_family_folder_122"
+        formatted="false">"Tham gia thư mục gia đình"</string>
+    <string
+        name="invalid_folder_id_123"
+        formatted="false">"Mã thư mục không hợp lệ."</string>
+    <string
+        name="oauth_is_not_configured_correctly_create_an_android_oauth_client__124"
+        formatted="false">"App chưa được đăng ký OAuth đúng. Cần tạo Android OAuth client với package triplesix.babyfeed và SHA-1 của bản APK."</string>
+    <string
+        name="google_has_not_granted_drive_access_check_the_android_oauth_clien_125"
+        formatted="false">"Google chưa cấp quyền liên kết Drive. Kiểm tra Android OAuth client (package + SHA-1), Drive API và tài khoản test trong Google Cloud."</string>
+    <string
+        name="details_127"
+        formatted="false">"\n\nChi tiết: "</string>
+    <string
+        name="google_drive_permission_not_granted_128"
+        formatted="false">"Chưa cấp quyền Google Drive"</string>
+    <string
+        name="google_drive_access_has_not_been_granted_129"
+        formatted="false">"Chưa được cấp quyền Google Drive."</string>
+    <string
+        name="go_to_parent_folder_130"
+        formatted="false">"Lên thư mục cha"</string>
+    <string
+        name="no_subfolders_131"
+        formatted="false">"Không có thư mục con"</string>
+    <string
+        name="use_this_folder_132"
+        formatted="false">"Dùng thư mục này"</string>
+    <string
+        name="has_baby_finished_feeding_133"
+        formatted="false">"Bé đã uống xong chưa?"</string>
+    <string
+        name="time_to_prepare_milk_134"
+        formatted="false">"Đến giờ pha sữa"</string>
+    <string
+        name="record_how_much_baby_drank_135"
+        formatted="false">"Ghi nhận lượng bé đã uống"</string>
+    <string
+        name="for_baby_136"
+        formatted="false">" cho bé"</string>
+    <string
+        name="record_feed_137"
+        formatted="false">"Mở ghi nhận"</string>
+    <string
+        name="open_feeding_app_138"
+        formatted="false">"Mở app pha sữa"</string>
+    <string
+        name="dismiss_alarm_139"
+        formatted="false">"Tắt báo thức"</string>
+    <string
+        name="baby_is_feeding_140"
+        formatted="false">"Bé đang uống"</string>
+    <string
+        name="next_feed_141"
+        formatted="false">"Cữ sữa tiếp theo"</string>
+    <string
+        name="no_scheduled_feed_142"
+        formatted="false">"Chưa có lịch"</string>
+    <string
+        name="check_again_143"
+        formatted="false">" · Hỏi lại"</string>
+    <string
+        name="schedule_the_first_feed_144"
+        formatted="false">"Đặt cữ đầu tiên"</string>
+    <string
+        name="schedule_145"
+        formatted="false">"Đặt lịch"</string>
+    <string
+        name="snooze_10_minutes_146"
+        formatted="false">"Nhắc lại 10 phút"</string>
+    <string
+        name="feeding_alarms_147"
+        formatted="false">"Báo thức pha sữa"</string>
+    <string
+        name="time_to_prepare_milk_for_baby_148"
+        formatted="false">"Đến giờ pha sữa cho bé"</string>
+    <string
+        name="record_how_much_baby_drank_149"
+        formatted="false">"Ghi nhận lượng bé đã uống."</string>
+    <string
+        name="has_baby_finished_feeding_open_the_app_to_record_it_150"
+        formatted="false">"Bé đã uống xong chưa? Mở app để ghi nhận."</string>
+    <string
+        name="time_to_prepare_151"
+        formatted="false">"Đến giờ pha "</string>
+    <string
+        name="milk_for_baby_152"
+        formatted="false">" sữa cho bé."</string>
+    <string
+        name="dismiss_153"
+        formatted="false">"Tắt"</string>
+    <string
+        name="due_now_154"
+        formatted="false">"(đã tới giờ)"</string>
+    <string
+        name="remaining_155"
+        formatted="false">"tới)"</string>
+    <string
+        name="hours_cannot_be_negative_minutes_must_be_between_0_and_59_156"
+        formatted="false">"Giờ không được âm, phút từ 0 đến 59."</string>
+    <string
+        name="enter_an_interval_such_as_1h30p_2h_or_45p_157"
+        formatted="false">"Nhập khoảng cách dạng 1h30p, 2h hoặc 45p."</string>
+    <string
+        name="minutes_must_be_less_than_60_for_example_1h30p_158"
+        formatted="false">"Phần phút phải nhỏ hơn 60, ví dụ 1h30p."</string>
+    <string
+        name="the_amount_left_must_be_between_zero_and_the_amount_prepared_159"
+        formatted="false">"Lượng còn lại phải từ 0 đến lượng đã pha."</string>
+    <string
+        name="the_interval_cannot_be_negative_160"
+        formatted="false">"Khoảng cách không được âm."</string>
+    <string
+        name="prepared_161"
+        formatted="false">"Pha "</string>
+    <string
+        name="settings_162"
+        formatted="false">"Thiết Lập"</string>
+    <string
+        name="language_163"
+        formatted="false">"Ngôn ngữ"</string>
+    <string
+        name="app_version_164"
+        formatted="false">"Phiên bản ứng dụng"</string>
+    <string
+        name="bottle_165"
+        formatted="false">"Bình sữa"</string>
+    <string
+        name="error_invalid_data">"Dữ liệu không hợp lệ"</string>
+    <string
+        name="error_invalid_record_type">"Loại bản ghi không hợp lệ"</string>
+    <string
+        name="error_no_feed_selected">"Chưa chọn cữ cần xóa"</string>
+    <string
+        name="error_missing_preparation_time">"Thiếu giờ pha"</string>
+    <string
+        name="error_missing_next_feed_time">"Thiếu giờ cữ tiếp theo"</string>
+    <string
+        name="error_invalid_feed_result">"Kết quả cữ sữa không hợp lệ"</string>
+    <string
+        name="error_folder_trashed">"Thư mục đồng bộ đã nằm trong thùng rác. Khôi phục trên Drive hoặc chọn thư mục khác."</string>
+    <string
+        name="error_folder_missing">"Không tìm thấy thư mục đồng bộ. Hãy chọn thư mục khác."</string>
+    <string
+        name="error_folder_read_only">"Bạn không còn quyền ghi vào thư mục đồng bộ. Hãy xin lại quyền chỉnh sửa hoặc chọn thư mục khác."</string>
+    <string
+        name="error_folder_unavailable">"Thư mục đồng bộ đã bị xóa hoặc bạn không còn quyền truy cập. Hãy chọn thư mục khác."</string>
+    <string
+        name="error_multiple_folders">"Có nhiều thư mục Baby Feed trên Drive. Vui lòng chọn thư mục lưu trữ trong Info."</string>
+    <string
+        name="error_invalid_folder">"Thư mục không hợp lệ."</string>
+    <string
+        name="error_no_family_folder">"Chưa chọn thư mục gia đình."</string>
+    <string
+        name="error_invalid_sync_device">"Mã thiết bị đồng bộ không hợp lệ."</string>
+    <string
+        name="error_reconnect_drive">"Mở app và liên kết lại Google Drive."</string>
+    <string
+        name="error_drive_http_detail">". Kiểm tra tài khoản và quyền thư mục."</string>
+    <string
+        name="settings_notifications">Thông báo</string>
+    <string
+        name="sleep_hours">Giờ ngủ</string>
+    <string
+        name="sleep_hours_start">Bắt đầu ngủ</string>
+    <string
+        name="sleep_hours_end">Kết thúc ngủ</string>
+    <string
+        name="sleep_hours_description">Bỏ qua nhắc nhở trong giờ ngủ, không phát bù. Áp dụng riêng trên máy này.</string>
+    <string
+        name="sleep_hours_different_times">Giờ bắt đầu và kết thúc ngủ phải khác nhau.</string>
+    <string
+        name="vitamin_title">Vitamin K2D3</string>
+    <string
+        name="record_tab_milk">Sữa</string>
+    <string
+        name="record_tab_vitamin">Vitamin</string>
+    <string
+        name="vitamin_yes">Có</string>
+    <string
+        name="vitamin_no">Không</string>
+    <string
+        name="vitamin_reminder_time">Giờ uống Vitamin</string>
+    <string
+        name="vitamin_reminder_channel">Nhắc uống Vitamin</string>
+    <string
+        name="vitamin_reminder_title">Đến giờ uống Vitamin K2D3</string>
+    <string
+        name="vitamin_reminder_message">Mở ứng dụng để ghi nhận sau khi bé đã uống.</string>
+    <string
+        name="vitamin_reminder_description">Nhắc hằng ngày theo giờ đã chọn. Bỏ qua nếu đã ghi nhận uống hoặc giờ nhắc nằm trong giờ ngủ; không nhắc bù. Cài đặt riêng trên máy này.</string>
+    <string
+        name="record_amount_consumed">Lượng đã uống (ml)</string>
+    <string
+        name="vitamin_already_taken">Ngày này đã ghi nhận bé uống Vitamin K2D3. Không thể ghi nhận thêm.</string>
+    <string
+        name="vitamin_taken">Đã uống</string>
+    <string
+        name="vitamin_future_time">Giờ uống Vitamin K2D3 không được ở tương lai.</string>
+    <string
+        name="date_label">Ngày: %1$s</string>
+    <string
+        name="time_label">Giờ: %1$s</string>
+    <string
+        name="widget_placeholder"
+        translatable="false">—</string>
+    <plurals
+        name="selected_count">
+        <item
+            quantity="other">Đã chọn %1$d bản ghi</item>
+    </plurals>
+    <string name="drive_connecting">Đang liên kết Google Drive…</string>
+    <string name="drive_connection_failed">Liên kết chưa thành công</string>
+    <string name="milk_per_day">ml / ngày</string>
+    <string name="feeds_per_day">cữ / ngày</string>
+</resources>

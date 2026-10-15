@@ -1,0 +1,30 @@
+A little reminder. A little peace of mind.
+
+Baby Feed helps parents and caregivers keep track of bottle feeds, remember the next feed and review the day at a glance. Record what you prepared, what baby drank and what was left, all in one simple feeding diary.
+
+PLAN THE NEXT FEED
+Choose a time and milk amount for the next bottle. When the milk is ready, mark it as prepared. Baby Feed can remind you to record the result after 30 minutes, with a 10-minute snooze when you need more time. After you record a completed feed, set the next reminder using your chosen interval and amount.
+
+RECORD WHAT BABY DRANK
+Enter the amount prepared and the amount left. Baby Feed calculates the amount consumed in milliliters. You can also add an earlier feed without changing your current reminder.
+
+SEE YOUR DAILY HISTORY
+Pick a day to review milk consumed, milk left over and individual feeding records. Keep your diary tidy by deleting selected records when needed.
+
+REMEMBER VITAMIN K2D3
+Record when Vitamin K2D3 was taken and check its daily status alongside your feeding history. An optional daily reminder is skipped once that day is already recorded. This feature records the time taken; it does not recommend a dose.
+
+SHARE CARE WITH FAMILY
+Optionally connect Google Drive and use a shared folder to sync feeding history, vitamin records and the current feeding schedule across caregivers' devices. Each caregiver needs access to the same folder. Sync requires internet access and may be delayed by Android background restrictions; use Sync now when you need the latest records before a handover.
+
+MAKE IT FIT YOUR ROUTINE
+- View the next feed from a home screen widget.
+- Choose light, dark or system appearance.
+- Use the app in English or Vietnamese.
+- Set optional sleep hours to skip reminders on this device, with no catch-up alerts afterward.
+
+START WITHOUT SIGNING IN
+Feeding records and reminders work on your device without an account. A Google account is needed only for optional Google Drive sync.
+
+REMINDERS AND CARE
+Notification and alarm permissions are needed for reminders. Delivery can be affected by device settings and Android restrictions. Feeding amounts and intervals are entered by you; the app does not provide feeding or medical recommendations. Follow your healthcare professional's guidance for your baby's feeding and supplements.

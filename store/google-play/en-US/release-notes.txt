@@ -1,0 +1,6 @@
+Keep track of bottle feeds with Baby Feed.
+- Plan feeding reminders and record milk consumed and left over.
+- Review daily feeding history and Vitamin K2D3 records.
+- Add a home screen widget and choose light or dark appearance.
+- Optionally sync with family through a shared Google Drive folder.
+- Use English or Vietnamese.

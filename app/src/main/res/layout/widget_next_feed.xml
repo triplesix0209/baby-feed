@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/widget_background"
+        android:scaleType="fitXY"
+        android:importantForAccessibility="no" />
+    <LinearLayout
+        android:id="@+id/widget_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:includeFontPadding="false"
+                android:id="@+id/widget_title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/next_feed_141"
+                android:textColor="#2D69CB"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+            <TextView
+                android:includeFontPadding="false"
+                android:id="@+id/widget_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/widget_placeholder"
+                android:textColor="#2D69CB"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:maxLines="1" />
+            <ImageView
+                android:id="@+id/widget_bottle"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_widget_bottle"
+                android:contentDescription="@string/bottle_165" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:includeFontPadding="false"
+                android:id="@+id/widget_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_placeholder"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#313037"
+                android:maxLines="1"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeMaxTextSize="32sp"
+                android:autoSizeStepGranularity="1sp" />
+            <TextView
+                android:includeFontPadding="false"
+                android:id="@+id/widget_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/widget_placeholder"
+                android:textColor="#2D69CB"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:maxLines="1" />
+        </LinearLayout>
+        <TextView
+            android:includeFontPadding="false"
+            android:id="@+id/widget_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_placeholder"
+            android:textSize="11sp"
+            android:textColor="#777178"
+            android:maxLines="1" />
+        <TextView
+            android:includeFontPadding="false"
+            android:id="@+id/widget_action"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/widget_button"
+            android:gravity="center"
+            android:text="@string/milk_prepared_35"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+        <LinearLayout
+            android:id="@+id/widget_extra"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="2dp">
+            <TextView
+                android:includeFontPadding="false"
+                android:id="@+id/widget_edit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/widget_change"
+                android:textColor="#2D69CB"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="13sp"
+                android:autoSizeStepGranularity="1sp" />
+            <TextView
+                android:includeFontPadding="false"
+                android:id="@+id/widget_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/cancel_schedule_14"
+                android:textColor="#B33E42"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="13sp"
+                android:autoSizeStepGranularity="1sp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="settings_display">Display</string>
+    <string
+        name="settings_appearance">Appearance</string>
+    <string
+        name="settings_widget">Widget</string>
+    <string
+        name="settings_tips">Tips</string>
+    <string
+        name="settings_info">Info</string>
+    <string
+        name="appearance_light">Light</string>
+    <string
+        name="appearance_dark">Dark</string>
+    <string
+        name="appearance_system">System</string>
+    <string
+        name="connected_provider">Connected</string>
+    <string
+        name="widget_number">Widget %1$d</string>
+    <string
+        name="widget_settings">Widget settings</string>
+    <string
+        name="widget_saved_automatically">Changes are saved and applied immediately.</string>
+    <string
+        name="widget_add_hint">Add a Baby Feed widget to your home screen to adjust its settings.</string>
+    <string
+        name="widget_refresh">Refresh interval</string>
+    <plurals
+        name="widget_refresh_minutes">
+        <item
+            quantity="one">%d minute</item>
+        <item
+            quantity="other">%d minutes</item>
+    </plurals>
+    <string
+        name="widget_transparency">Background transparency</string>
+    <string
+        name="widget_transparency_value">Background transparency: %1$d%%</string>
+    <string
+        name="widget_change">Change</string>
+    <string
+        name="the_schedule_has_changed_please_use_the_current_schedule_0"
+        formatted="false">"The schedule has changed. Please use the current schedule."</string>
+    <string
+        name="this_feed_has_changed_the_widget_was_updated_please_check_the_cur_1"
+        formatted="false">"This feed has changed. The widget was updated; please check the current schedule."</string>
+    <string
+        name="we_will_ask_again_in_10_minutes_2"
+        formatted="false">"We will ask again in 10 minutes."</string>
+    <string
+        name="schedule_a_feed_3"
+        formatted="false">"Schedule a feed"</string>
+    <string
+        name="remind_me_in_10_minutes_4"
+        formatted="false">"Remind me in 10 minutes"</string>
+    <string
+        name="change_time_amount_5"
+        formatted="false">"Change time / amount"</string>
+    <string
+        name="cancel_reminders_6"
+        formatted="false">"Cancel reminders"</string>
+    <string
+        name="record_an_earlier_feed_7"
+        formatted="false">"Record an earlier feed"</string>
+    <string
+        name="view_report_8"
+        formatted="false">"View report"</string>
+    <string
+        name="sync_9"
+        formatted="false">"Sync"</string>
+    <string
+        name="feed_actions_10"
+        formatted="false">"Feed actions"</string>
+    <string
+        name="close_11"
+        formatted="false">"Close"</string>
+    <string
+        name="cancel_this_feeding_session_and_its_reminders_12"
+        formatted="false">"Cancel this feeding session and its reminders?"</string>
+    <string
+        name="cancel_the_next_feed_13"
+        formatted="false">"Cancel the next feed?"</string>
+    <string
+        name="cancel_schedule_14"
+        formatted="false">"Cancel schedule"</string>
+    <string
+        name="this_feed_has_changed_please_check_again_before_cancelling_15"
+        formatted="false">"This feed has changed. Please check again before cancelling."</string>
+    <string
+        name="keep_schedule_16"
+        formatted="false">"Keep schedule"</string>
+    <string
+        name="feeds_17"
+        formatted="false">"Baby care"</string>
+    <string
+        name="report_18"
+        formatted="false">"Report"</string>
+    <string
+        name="cancel_19"
+        formatted="false">"Cancel"</string>
+    <string
+        name="confirm_20"
+        formatted="false">"Confirm"</string>
+    <string
+        name="confirm_23"
+        formatted="false">"Confirm ("</string>
+    <string
+        name="select_at_least_one_feed_to_delete_24"
+        formatted="false">"Select at least one item to delete."</string>
+    <string
+        name="a_little_reminder_a_little_peace_of_mind_25"
+        formatted="false">"A little reminder, a little peace of mind."</string>
+    <string
+        name="baby_is_feeding_26"
+        formatted="false">"BABY IS FEEDING"</string>
+    <string
+        name="next_feed_27"
+        formatted="false">"NEXT FEED"</string>
+    <string
+        name="ready_for_the_first_feed_28"
+        formatted="false">"Ready for the\nfirst feed"</string>
+    <string
+        name="choose_a_time_and_amount_we_will_handle_the_reminders_29"
+        formatted="false">"Choose a time and amount. We will handle the reminders."</string>
+    <string
+        name="schedule_a_feed_30"
+        formatted="false">"+  Schedule a feed"</string>
+    <string
+        name="prepared_at_31"
+        formatted="false">"Prepared at "</string>
+    <string
+        name="check_again_at_32"
+        formatted="false">"Check again at "</string>
+    <string
+        name="baby_has_finished_33"
+        formatted="false">"Baby has finished"</string>
+    <string
+        name="milk_34"
+        formatted="false">" milk"</string>
+    <string
+        name="milk_prepared_35"
+        formatted="false">"Milk prepared"</string>
+    <string
+        name="today_36"
+        formatted="false">"Today"</string>
+    <string
+        name="view_report_37"
+        formatted="false">"View report →"</string>
+    <string
+        name="record_38"
+        formatted="false">"Record"</string>
+    <string
+        name="enable_feeding_reminders_39"
+        formatted="false">"Enable feeding reminders"</string>
+    <string
+        name="allow_notifications_40"
+        formatted="false">"Allow notifications"</string>
+    <string
+        name="allow_exact_alarms_to_help_reminders_arrive_on_time_41"
+        formatted="false">"Allow exact alarms to help reminders arrive on time."</string>
+    <string
+        name="allow_exact_alarms_42"
+        formatted="false">"Allow exact alarms"</string>
+    <string
+        name="allow_full_screen_alarms_43"
+        formatted="false">"Allow full-screen alarms"</string>
+    <string
+        name="consumed_44"
+        formatted="false">"CONSUMED"</string>
+    <string
+        name="discarded_46"
+        formatted="false">"DISCARDED"</string>
+    <string
+        name="delete_47"
+        formatted="false">"Delete"</string>
+    <string
+        name="select_feeds_to_delete_48"
+        formatted="false">"Select items to delete"</string>
+    <string
+        name="previous_day_49"
+        formatted="false">"Previous day"</string>
+    <string
+        name="next_day_50"
+        formatted="false">"Next day"</string>
+    <string
+        name="no_data_51"
+        formatted="false">"No data"</string>
+    <string
+        name="select_feed_56"
+        formatted="false">"Select item "</string>
+    <string
+        name="discarded_57"
+        formatted="false">"  ·  Discarded "</string>
+    <string
+        name="care_for_baby_together_58"
+        formatted="false">"Care for baby together"</string>
+    <string
+        name="family_members_can_use_different_email_accounts_select_the_same_g_62"
+        formatted="false">"Family members can use different email accounts. Select the same Google Drive folder to share the feeding schedule and history."</string>
+    <string
+        name="step_1_connect_on_the_first_device_63"
+        formatted="false">"1. Connect on the first device"</string>
+    <string
+        name="in_baby_feed_tap_connect_under_google_drive_and_choose_your_googl_64"
+        formatted="false">"In Baby Feed, tap Connect under Google Drive and choose your Google account. Wait for connection and sync to finish."</string>
+    <string
+        name="step_2_share_the_folder_with_your_family_65"
+        formatted="false">"2. Share the folder with your family"</string>
+    <string
+        name="tap_next_to_google_drive_to_see_the_folder_name_open_google_drive_66"
+        formatted="false">"Tap ⓘ next to Google Drive to see the folder name. Open Google Drive with the same account, find that folder (Baby Feed by default), then tap the three dots → Share. Enter the other person\'s email, choose Editor and tap Send."</string>
+    <string
+        name="step_3_select_the_shared_folder_on_the_second_device_67"
+        formatted="false">"3. Select the shared folder on the second device"</string>
+    <string
+        name="open_baby_feed_on_the_other_device_tap_connect_and_choose_the_inv_68"
+        formatted="false">"Open Baby Feed on the other device, tap Connect and choose the invited Google account. Once connected, tap ⓘ next to Google Drive → Change. Open the shared folder and tap Use this folder."</string>
+    <string
+        name="step_4_sync_both_devices_69"
+        formatted="false">"4. Sync both devices"</string>
+    <string
+        name="connect_to_the_internet_and_tap_sync_on_the_first_device_then_on__70"
+        formatted="false">"Connect to the Internet and tap Sync on the first device, then on the second. Wait until each device shows Synced, then check the feeding history."</string>
+    <string
+        name="choose_the_correct_shared_folder_71"
+        formatted="false">"Choose the correct shared folder"</string>
+    <string
+        name="two_folders_named_baby_feed_may_be_different_folders_avoid_select_72"
+        formatted="false">"Two folders named Baby Feed may be different folders. Avoid selecting a separate folder created by the second device. If the shared folder is missing, check the invited email and Editor permission in step 2."</string>
+    <string
+        name="use_the_latest_baby_feed_version_on_all_devices_after_setup_the_a_73"
+        formatted="false">"Use the latest Baby Feed version on all devices. After setup, the app syncs automatically when online, but changes may take time to appear. For the latest information, tap Sync on the device that recorded the feed, then on the other device."</string>
+    <string
+        name="about_74"
+        formatted="false">"About "</string>
+    <string
+        name="disconnect_75"
+        formatted="false">"Disconnect"</string>
+    <string
+        name="connect_76"
+        formatted="false">"Connect"</string>
+    <string
+        name="disconnect_google_drive_on_this_device_your_history_will_be_kept_77"
+        formatted="false">"Disconnect Google Drive on this device? Your history will be kept."</string>
+    <string
+        name="not_connected_78"
+        formatted="false">"Not connected"</string>
+    <string
+        name="syncing_79"
+        formatted="false">"Syncing"</string>
+    <string
+        name="synced_80"
+        formatted="false">"Synced"</string>
+    <string
+        name="syncing_81"
+        formatted="false">"Syncing…"</string>
+    <string
+        name="not_synced_82"
+        formatted="false">"Not synced"</string>
+    <string
+        name="sync_failed_84"
+        formatted="false">"Sync failed"</string>
+    <string
+        name="at_85"
+        formatted="false">"at "</string>
+    <string
+        name="storage_folder_86"
+        formatted="false">"STORAGE FOLDER"</string>
+    <string
+        name="no_folder_selected_87"
+        formatted="false">"No folder selected"</string>
+    <string
+        name="change_88"
+        formatted="false">"Change"</string>
+    <string
+        name="loading_folders_89"
+        formatted="false">"Loading folders…"</string>
+    <string
+        name="unable_to_sync_90"
+        formatted="false">"Unable to sync"</string>
+    <string
+        name="your_history_on_this_device_is_unchanged_91"
+        formatted="false">"\n\nYour history on this device is unchanged."</string>
+    <string
+        name="choose_folder_92"
+        formatted="false">"Choose folder"</string>
+    <string
+        name="sync_unsuccessful_93"
+        formatted="false">"Sync unsuccessful: "</string>
+    <string
+        name="time_baby_finished_feeding_94"
+        formatted="false">"Time baby finished feeding"</string>
+    <string
+        name="save_95"
+        formatted="false">"Save"</string>
+    <string
+        name="please_check_your_entries_96"
+        formatted="false">"Please check your entries."</string>
+    <string
+        name="amount_to_prepare_ml_97"
+        formatted="false">"Amount to prepare (ml)"</string>
+    <string
+        name="reminder_date_and_time_98"
+        formatted="false">"Reminder date and time"</string>
+    <string
+        name="choose_a_future_time_101"
+        formatted="false">"Choose a future time."</string>
+    <string
+        name="when_baby_was_fed_102"
+        formatted="false">"When baby was fed"</string>
+    <string
+        name="amount_discarded_ml_106"
+        formatted="false">"Amount discarded (ml)"</string>
+    <string
+        name="choose_a_feeding_time_in_the_past_108"
+        formatted="false">"Choose a feeding time in the past."</string>
+    <string
+        name="actual_amount_prepared_ml_109"
+        formatted="false">"Actual amount prepared (ml)"</string>
+    <string
+        name="confirm_milk_prepared_110"
+        formatted="false">"Confirm milk prepared"</string>
+    <string
+        name="amount_left_ml_111"
+        formatted="false">"Amount left (ml)"</string>
+    <string
+        name="next_feed_after_112"
+        formatted="false">"Next feed after"</string>
+    <string
+        name="hours_113"
+        formatted="false">"hours"</string>
+    <string
+        name="minutes_114"
+        formatted="false">"minutes"</string>
+    <string
+        name="amount_for_next_feed_ml_115"
+        formatted="false">"Amount for next feed (ml)"</string>
+    <string
+        name="record_finished_feed_116"
+        formatted="false">"Record finished feed"</string>
+    <string
+        name="this_feed_has_already_been_recorded_117"
+        formatted="false">"This feed has already been recorded."</string>
+    <string
+        name="the_finish_time_cannot_be_in_the_future_118"
+        formatted="false">"The finish time cannot be in the future."</string>
+    <string
+        name="the_finish_time_must_be_at_or_after_preparation_119"
+        formatted="false">"The finish time must be at or after preparation."</string>
+    <string
+        name="disconnect_before_changing_families_local_data_will_be_uploaded_t_120"
+        formatted="false">"Disconnect before changing families. Local data will be uploaded to the new folder."</string>
+    <string
+        name="id_at_the_end_of_the_drive_folder_url_121"
+        formatted="false">"ID at the end of the Drive folder URL"</string>
+    <string
+        name="join_family_folder_122"
+        formatted="false">"Join family folder"</string>
+    <string
+        name="invalid_folder_id_123"
+        formatted="false">"Invalid folder ID."</string>
+    <string
+        name="oauth_is_not_configured_correctly_create_an_android_oauth_client__124"
+        formatted="false">"OAuth is not configured correctly. Create an Android OAuth client with package triplesix.babyfeed and the APK\'s SHA-1."</string>
+    <string
+        name="google_has_not_granted_drive_access_check_the_android_oauth_clien_125"
+        formatted="false">"Google has not granted Drive access. Check the Android OAuth client (package + SHA-1), Drive API and test accounts in Google Cloud."</string>
+    <string
+        name="details_127"
+        formatted="false">"\n\nDetails: "</string>
+    <string
+        name="google_drive_permission_not_granted_128"
+        formatted="false">"Google Drive permission not granted"</string>
+    <string
+        name="google_drive_access_has_not_been_granted_129"
+        formatted="false">"Google Drive access has not been granted."</string>
+    <string
+        name="go_to_parent_folder_130"
+        formatted="false">"Go to parent folder"</string>
+    <string
+        name="no_subfolders_131"
+        formatted="false">"No subfolders"</string>
+    <string
+        name="use_this_folder_132"
+        formatted="false">"Use this folder"</string>
+    <string
+        name="has_baby_finished_feeding_133"
+        formatted="false">"Has baby finished feeding?"</string>
+    <string
+        name="time_to_prepare_milk_134"
+        formatted="false">"Time to prepare milk"</string>
+    <string
+        name="record_how_much_baby_drank_135"
+        formatted="false">"Record how much baby drank"</string>
+    <string
+        name="for_baby_136"
+        formatted="false">" for baby"</string>
+    <string
+        name="record_feed_137"
+        formatted="false">"Record feed"</string>
+    <string
+        name="open_feeding_app_138"
+        formatted="false">"Open feeding app"</string>
+    <string
+        name="dismiss_alarm_139"
+        formatted="false">"Dismiss alarm"</string>
+    <string
+        name="baby_is_feeding_140"
+        formatted="false">"Baby is feeding"</string>
+    <string
+        name="next_feed_141"
+        formatted="false">"Next feed"</string>
+    <string
+        name="no_scheduled_feed_142"
+        formatted="false">"No scheduled feed"</string>
+    <string
+        name="check_again_143"
+        formatted="false">" · Check again"</string>
+    <string
+        name="schedule_the_first_feed_144"
+        formatted="false">"Schedule the first feed"</string>
+    <string
+        name="schedule_145"
+        formatted="false">"Schedule"</string>
+    <string
+        name="snooze_10_minutes_146"
+        formatted="false">"Snooze 10 minutes"</string>
+    <string
+        name="feeding_alarms_147"
+        formatted="false">"Feeding alarms"</string>
+    <string
+        name="time_to_prepare_milk_for_baby_148"
+        formatted="false">"Time to prepare milk for baby"</string>
+    <string
+        name="record_how_much_baby_drank_149"
+        formatted="false">"Record how much baby drank."</string>
+    <string
+        name="has_baby_finished_feeding_open_the_app_to_record_it_150"
+        formatted="false">"Has baby finished feeding? Open the app to record it."</string>
+    <string
+        name="time_to_prepare_151"
+        formatted="false">"Time to prepare "</string>
+    <string
+        name="milk_for_baby_152"
+        formatted="false">" milk for baby."</string>
+    <string
+        name="dismiss_153"
+        formatted="false">"Dismiss"</string>
+    <string
+        name="due_now_154"
+        formatted="false">"(due now)"</string>
+    <string
+        name="remaining_155"
+        formatted="false">"remaining)"</string>
+    <string
+        name="hours_cannot_be_negative_minutes_must_be_between_0_and_59_156"
+        formatted="false">"Hours cannot be negative; minutes must be between 0 and 59."</string>
+    <string
+        name="enter_an_interval_such_as_1h30p_2h_or_45p_157"
+        formatted="false">"Enter an interval such as 1h30p, 2h or 45p."</string>
+    <string
+        name="minutes_must_be_less_than_60_for_example_1h30p_158"
+        formatted="false">"Minutes must be less than 60, for example 1h30p."</string>
+    <string
+        name="the_amount_left_must_be_between_zero_and_the_amount_prepared_159"
+        formatted="false">"The amount left must be between zero and the amount prepared."</string>
+    <string
+        name="the_interval_cannot_be_negative_160"
+        formatted="false">"The interval cannot be negative."</string>
+    <string
+        name="prepared_161"
+        formatted="false">"Prepared "</string>
+    <string
+        name="settings_162"
+        formatted="false">"Settings"</string>
+    <string
+        name="language_163"
+        formatted="false">"Language"</string>
+    <string
+        name="app_version_164"
+        formatted="false">"App Version"</string>
+    <string
+        name="bottle_165"
+        formatted="false">"Bottle"</string>
+    <string
+        name="error_invalid_data">"Invalid data"</string>
+    <string
+        name="error_invalid_record_type">"Invalid record type"</string>
+    <string
+        name="error_no_feed_selected">"No feeds selected for deletion"</string>
+    <string
+        name="error_missing_preparation_time">"Missing preparation time"</string>
+    <string
+        name="error_missing_next_feed_time">"Missing next feed time"</string>
+    <string
+        name="error_invalid_feed_result">"Invalid feeding result"</string>
+    <string
+        name="error_folder_trashed">"The sync folder is in the trash. Restore it in Drive or choose another folder."</string>
+    <string
+        name="error_folder_missing">"Sync folder not found. Choose another folder."</string>
+    <string
+        name="error_folder_read_only">"You no longer have write access to the sync folder. Ask for Editor permission or choose another folder."</string>
+    <string
+        name="error_folder_unavailable">"The sync folder was deleted or you no longer have access. Choose another folder."</string>
+    <string
+        name="error_multiple_folders">"There are multiple Baby Feed folders in Drive. Choose the storage folder under Info."</string>
+    <string
+        name="error_invalid_folder">"Invalid folder."</string>
+    <string
+        name="error_no_family_folder">"No family folder selected."</string>
+    <string
+        name="error_invalid_sync_device">"Invalid sync device ID."</string>
+    <string
+        name="error_reconnect_drive">"Open the app and reconnect Google Drive."</string>
+    <string
+        name="error_drive_http_detail">". Check the account and folder permissions."</string>
+    <string
+        name="settings_notifications">Notifications</string>
+    <string
+        name="sleep_hours">Sleep hours</string>
+    <string
+        name="sleep_hours_start">Sleep start</string>
+    <string
+        name="sleep_hours_end">Sleep end</string>
+    <string
+        name="sleep_hours_description">Skip reminders during sleep hours, with no replay afterward. Applies only to this device.</string>
+    <string
+        name="sleep_hours_different_times">Sleep start and end must be different.</string>
+    <string
+        name="vitamin_title">Vitamin K2D3</string>
+    <string
+        name="record_tab_milk">Milk</string>
+    <string
+        name="record_tab_vitamin">Vitamin</string>
+    <string
+        name="vitamin_yes">Yes</string>
+    <string
+        name="vitamin_no">No</string>
+    <string
+        name="vitamin_reminder_time">Vitamin time</string>
+    <string
+        name="vitamin_reminder_channel">Vitamin reminders</string>
+    <string
+        name="vitamin_reminder_title">Time for Vitamin K2D3</string>
+    <string
+        name="vitamin_reminder_message">Open the app to record it after baby has taken it.</string>
+    <string
+        name="vitamin_reminder_description">Daily reminder at the chosen time. Skipped if already recorded as taken or scheduled during sleep hours; no catch-up notification. Applies only to this device.</string>
+    <string
+        name="record_amount_consumed">Amount consumed (ml)</string>
+    <string
+        name="vitamin_already_taken">Vitamin K2D3 is already recorded as taken for this day. Another record cannot be added.</string>
+    <string
+        name="vitamin_taken">Taken</string>
+    <string
+        name="vitamin_future_time">The time Vitamin K2D3 was taken cannot be in the future.</string>
+    <string
+        name="date_label">Date: %1$s</string>
+    <string
+        name="time_label">Time: %1$s</string>
+    <plurals
+        name="selected_count">
+        <item
+            quantity="one">Selected %1$d record</item>
+        <item
+            quantity="other">Selected %1$d records</item>
+    </plurals>
+    <string name="drive_connecting">Connecting to Google Drive…</string>
+    <string name="drive_connection_failed">Connection failed</string>
+    <string name="milk_per_day">ml / day</string>
+    <string name="feeds_per_day">feeds / day</string>
+</resources>
